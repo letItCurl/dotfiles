@@ -1,0 +1,14 @@
+for file in ~/.zshconfigs/{path,exports,aliases,functions,extra}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
+ZSH_THEME="gitster"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+eval "$(rbenv init -)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
