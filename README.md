@@ -2,10 +2,11 @@
 
 ## Installing
 
+  - Setup Macos : https://github.com/Sbastien/macos-setup
   - Backup all your dotfiles
   - Create your gitconfig.local
     ```
-    touch ~/.gitconfig.local
+    vi ~/.gitconfig.local
     ```
 
     Then add your informations
