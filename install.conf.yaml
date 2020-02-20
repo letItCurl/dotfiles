@@ -1,7 +1,5 @@
 - defaults:
     link:
-      create: false
-      relink: false
       force: true
 
 - clean: ['~']
@@ -12,6 +10,7 @@
     ~/.bashrc: shell/bash/bashrc
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
+    ~/.githooks: git/hooks
     ~/.vim: vim/vim
     ~/.vimrc: vim/vimrc
     ~/.gvimrc: vim/gvimrc
